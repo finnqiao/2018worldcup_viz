@@ -2925,15 +2925,32 @@
             "name": "England",
             "code": "ENG"
           },
-          "score1": null,
-          "score2": null,
-          "score1i": null,
-          "score2i": null,
+          "score1": 2,
+          "score2": 0,
+          "score1i": 1,
+          "score2i": 0,
           "score1et": null,
           "score2et": null,
           "score1p": null,
           "score2p": null,
           "knockout": true,
+          "goals1": [
+            {
+              "name": "Thomas Meunier",
+              "minute": 4,
+              "score1": 1,
+              "score2": 0
+            },
+            {
+              "name": "Eden Hazard",
+              "minute": 82,
+              "score1": 2,
+              "score2": 0
+            }
+          ],
+          "goals2": [
+
+          ],
           "stadium": {
             "key": "saintpetersburg",
             "name": "Saint Petersburg Stadium"
@@ -2949,7 +2966,7 @@
         {
           "num": 64,
           "date": "2018-07-15",
-          "time": "12:00",
+          "time": "18:00",
           "team1": {
             "name": "France",
             "code": "FRA"
@@ -2958,15 +2975,57 @@
             "name": "Croatia",
             "code": "CRO"
           },
-          "score1": 18,
-          "score2": 0,
-          "score1i": null,
-          "score2i": null,
+          "score1": 4,
+          "score2": 2,
+          "score1i": 2,
+          "score2i": 1,
           "score1et": null,
           "score2et": null,
           "score1p": null,
           "score2p": null,
           "knockout": true,
+          "goals1": [
+            {
+              "name": "Mario Mandžukić",
+              "minute": 18,
+              "score1": 1,
+              "score2": 0,
+              "owngoal": true
+            },
+            {
+              "name": "Griezmann",
+              "minute": 38,
+              "score1": 2,
+              "score2": 1,
+              "penalty": true
+            },
+            {
+              "name": "Pogba",
+              "minute": 59,
+              "score1": 3,
+              "score2": 1
+            },
+            {
+              "name": "Mbappé",
+              "minute": 65,
+              "score1": 4,
+              "score2": 1
+            }
+          ],
+          "goals2": [
+            {
+              "name": "Perišić",
+              "minute": 28,
+              "score1": 1,
+              "score2": 1
+            },
+            {
+              "name": "Mario Mandžukić",
+              "minute": 69,
+              "score1": 4,
+              "score2": 2
+            }
+          ],
           "stadium": {
             "key": "luzhniki",
             "name": "Luzhniki Stadium"
